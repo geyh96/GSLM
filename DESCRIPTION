@@ -1,0 +1,13 @@
+Package: GSLM
+Type: Package
+Title: Structure learning via unstructured kernel-based M-regression 
+Version: 1.0
+Date: 2021-04-27
+Author: Xin He, Yeheng Ge and Xingdong Feng
+Maintainer: Yeheng Ge <geyh96@163.sufe.edu.cn>
+Description: Do sturture learning via gradient learning in RKHS with various Loss function.
+License: GPL (>= 2)
+Depends: 
+Imports: Rcpp (>= 1.0.6),kernlab,CVXR,testit,RcppEigen,methods,MASS,Matrix
+LinkingTo: Rcpp,RcppEigen
+RoxygenNote: 7.1.1

@@ -1,6 +1,6 @@
 # GSLM
-devtools::install_github("geyh96/GSLM")
-
+GSLM is a R packages designed for structure learning based on the unstructured kernel based M-regression.
+It provide functions to implement the variable selection and interaction selection for various Loss functions,like  L2 loss, Check loss, Huber loss for continuous response and Hinge loss(SVM) and Logistic loss for binary response.
 
 ##example
 # GSLM

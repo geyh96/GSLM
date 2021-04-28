@@ -3,6 +3,11 @@ devtools::install_github("geyh96/GSLM")
 
 
 ##example
+# GSLM
+devtools::install_github("geyh96/GSLM")
+
+
+##example
 run.n=500
 run.p=1000
 run.rho=0
@@ -64,3 +69,4 @@ DSL_result1_interaction = GSLM::DSL_base_order2(
 iselected2_DSL1  = GSLM::get_order2_vec(DSL_result1_interaction>Kappa_result1$Thres_Selected)
 }
 print(iselected2_DSL1)
+

@@ -4,9 +4,10 @@ devtools::install_github("geyh96/GSLM")
 
 ##example
 # GSLM
+```
 devtools::install_github("geyh96/GSLM")
-
-
+```
+```
 ##example
 run.n=500
 run.p=1000
@@ -70,3 +71,4 @@ iselected2_DSL1  = GSLM::get_order2_vec(DSL_result1_interaction>Kappa_result1$Th
 }
 print(iselected2_DSL1)
 
+```

@@ -17,7 +17,7 @@ run.rho=0
 if(1){
      UW <- matrix(runif(run.n * run.p, -0.5, 0.5), run.n, run.p)
      VW <- matrix(runif(run.n,  -0.5, 0.5), run.n, 1)
-     x <- (UW + run.rho * VW \%x\% t(rep(1, run.p))) / (1 + run.rho)
+     x <- (UW + run.rho * VW %x% t(rep(1, run.p))) / (1 + run.rho)
      y0=4*(x[,1] - x[,2] + x[,3] - x[,4] ) - 6*(x[,1]*x[,2] + x[,2]*x[,3] - x[,3]*x[,4] )
      y=y0 + rnorm(run.n, 0, 1)
    }

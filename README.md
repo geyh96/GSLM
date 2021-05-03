@@ -37,7 +37,7 @@ Ind1 = which(unname(DSL_result1_screening$screening_result)==1)
 iselected_DSL1=Ind1
 print('which(Ind1==1)')
 print(Ind1)   
-    # Ind1=c(1,2,3,4,5)
+
 if(length(Ind1)>1){
 ###########################################begin KappaInteraction
 Kappa_result1 = GSLM::Kappa_DSL2(
